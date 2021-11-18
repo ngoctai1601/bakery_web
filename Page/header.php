@@ -58,7 +58,7 @@
                         </li>
                         <li class="mobile-header__item">
                             <label for="subnav-appear4">
-                                <a href="index.php?direct=phanhoi">Phản Hồi</a>
+                                <a href="" class = "js-PH">Phản Hồi</a>
                             </label>
 
                         </li>
@@ -126,7 +126,7 @@
                             <a href="index.php?direct=lienhe" class="header__nav-menu--link">liên hệ</a>
                         </li>
                         <li class="header__nav-menu-item">
-                            <a href="index.php?direct=phanhoi" class="header__nav-menu--link">Phản Hồi</a>
+                            <a  href ="#"class="header__nav-menu--link js-PH">Phản Hồi</a>
                         </li>
                         <li class="header__nav-menu-item">
                             <a href="#contact-area" class="header__nav-menu--link">Thông Tin</a>
@@ -166,3 +166,40 @@
     </div>
 </header>
 </div>
+
+<div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-close">
+            <i class="far fa-times-circle icon-modal"></i>  
+            </div>
+            <div class = "header-ph">
+                Phản hồi
+            </div>
+
+            <form action="phanhoi_submit.php" method="POST" class="FormPH">
+                <div class="modal-body">
+                <label for="VD" class="modal-label">
+                    Vấn đề phản hồi:
+                </label>
+                <input id="VD" type="text" name = "vande_PH" class="modal-input">
+
+                <label for="ND" class="modal-label">
+                     Nội dung phản hồi:
+                </label>
+                <textarea id = "ND"name = "noidung_PH" class="modal-input" rows = "8"></textarea>
+
+                <div class="button_ThaoTac">
+                    <button type="submit" name="send" >Gửi phản hồi</button>
+                </div>
+                <div class="button_ThaoTac">
+                    <button type="reset" >Làm mới</button> 
+                </div>         
+                </div>
+                </form>  
+
+             <div class="modal-footer">
+                 <p><i class="far fa-frown-open"></i>Xin lỗi vì sự bất tiện này.</p>
+             </div>
+        </div>
+    </div>
+<
