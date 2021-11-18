@@ -1,3 +1,8 @@
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /* header left */
 .header {
   background-color:rgba(220, 220, 220, 0.8);
@@ -817,3 +822,70 @@
   font-style: italic;
 }
 /* ===================================End Footer================================================ */
+.phanhoi-table
+{
+  position: relative;
+  top: 0px;
+  max-width: 95%;
+  height: calc(80vh - 180px);
+  background-color:  transparent;
+  margin-top: 80px;
+}
+
+.phanhoi-table table {
+  border-collapse: collapse;
+  width: 95%; 
+  padding-top: 0.5em;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.3)
+}
+.phanhoi-table table tr td:nth-child(1){
+  font-size: 1.6em;
+  text-align: end;
+  width: 15%;
+  padding-right: 0.5em;
+}
+.phanhoi-table table tr td{
+  padding: 5px 0;
+}
+.phanhoi-table input{
+  min-width: 80%;
+  padding: 0.6em;
+  border-radius: 10px;
+  border: none;
+  text-indent: 10px;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.7em;
+  background-color: rgb(240, 233, 220);
+}
+.phanhoi-table textarea{
+  min-width: 70%;
+  padding: 0.7em;
+  border-radius: 10px;
+  border: none;
+  text-indent: 10px;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.7em;
+  background-color: rgb(240, 233, 220);
+
+}
+.button_ThaoTac {
+  position:absolute;
+  bottom: 10px;
+  right: 30px;
+}
+.button_ThaoTac button {
+  background-color: rgb(240, 202, 133);
+  padding: 0.5em;
+  border-radius: 10px;
+  font-size: 1.8em;
+  color: #8a3b02;
+  border: none;
+}
+.button_ThaoTac button:hover {
+  background-color: rgb(240, 233, 220);
+  color:#111;
+  cursor: pointer;
+}
