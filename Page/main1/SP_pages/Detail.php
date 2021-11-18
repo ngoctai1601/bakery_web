@@ -69,6 +69,10 @@
             </button>
             <button type="button" class="btn">Mua Ngay<i class="fas fa-arrow-left"></i></button>
           </div>
+          <div class="mota">
+            <h2>Mô Tả:</h2>
+            <p>hàng khong chất lượng nên đừng mua!</p>
+          </div>
         </div>
       </div>
     </div>
