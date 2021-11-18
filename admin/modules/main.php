@@ -22,6 +22,8 @@
         include("modules/xemphanhoi/xem.php");
     } else {
         include("modules/mainsub.php");
+        include("modules/mainsub1.php");
+
     }
     ?>
 </div>
