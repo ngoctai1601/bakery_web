@@ -1,0 +1,68 @@
+
+* {
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+}
+
+body {
+	background-image: url('../img/banner/nenslider.jpg');
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+button {
+	border-radius: 20px;
+	border: 1px solid rgb(97, 53, 3) ;
+	background-color: rgb(97, 53, 3);
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;}
+input {
+	background-color: white;
+	border: none;
+	padding: 10px 15px;
+	margin: 10px 0;
+	width: 100%;
+	border-radius: 10px;
+}
+ #title {
+	 border-radius: 10px;
+	 margin-bottom: 10px;
+	 padding: 1.2em;
+	 color: rgb(248, 247, 246); 
+	 background: #eba572;
+	 background: -webkit-linear-gradient(to bottom, wheat, #813a07);
+	 background: linear-gradient(to bottom, wheat, #813a07); 
+ }
+ .container {
+	 max-width: 95%;
+	 display: flex;
+	 justify-content: space-between;
+ }
+ .sign-container{
+	 max-width: 45%;
+	 background: #eba572;
+	 background: -webkit-linear-gradient(to bottom, rgb(241, 228, 202), #f0914e);
+	 background: linear-gradient(to bottom, rgb(241, 228, 202), #f0914e); 
+	 display: flex;
+	 align-items: center;
+	 border-radius: 10px;
+}
+#in, #up{
+	width: 100%;
+	text-align: center;
+	padding: 1.1em;
+}
+#in h1,  #up h1{
+	color: rgb(172, 114, 6);
+}
