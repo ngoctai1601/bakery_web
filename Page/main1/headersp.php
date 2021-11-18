@@ -10,10 +10,11 @@
                      <input type="checkbox" hidden="" id="mobile-nav-appear" class="click-header__bar-icon">
                      <label for="mobile-nav-appear" class="mobile-header__list">
                          <li class="mobile-header__item">
-                             <label for="subnav-appear">
-                                 <a href="">Trang Chủ</a>
-                             </label>
-
+                             <a href="">
+                                 <label for="subnav-appear">
+                                     Trang Chủ
+                                 </label>
+                             </a>
                          </li>
                          <li class="mobile-header__item">
                              <label for="subnav-appear2">
@@ -51,6 +52,11 @@
 
                              </ul>
                          </li>
+                         <a href="index.php?id=6&pages=1">
+                             <label for="subnav-appear">
+                                 Xem tất cả sản phẩm
+                             </label>
+                         </a>
                      </label>
                  </div>
              </div>
@@ -103,6 +109,9 @@
                                      </a>
                                  </li>
                              </ul>
+                         </li>
+                         <li class="header__nav-menu-item">
+                             <a href="index.php?id=6&pages=1" class="header__nav-menu--link">Xem Tất cả sản phẩm</a>
                          </li>
                      </ul>
                  </nav>
