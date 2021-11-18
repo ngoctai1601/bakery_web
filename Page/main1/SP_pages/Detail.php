@@ -38,10 +38,7 @@
         <div class="product-imgs">
           <div class="img-display">
             <div class="img-showcase">
-              <img src="../../../assets/img/banner/milktea1.jpg" alt="shoe image">
-              <img src="../../../assets/img/banner/milktea.jpg" alt="shoe image">
-              <img src="../../../assets/img/banner/bakery1.jpg" alt="shoe image">
-              <img src="../../../assets/img/banner/pancake2.png" alt="shoe image">
+              <img src="../../../assets/img/banner/milktea1.jpg">
             </div>
           </div>
 
@@ -76,7 +73,7 @@
       </div>
     </div>
 
-    <script language="javascript" src="../../../assets/js/Detail.js"></script>
+   
 
 </body>
 
